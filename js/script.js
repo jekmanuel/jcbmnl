@@ -56,6 +56,7 @@ function sendEmail() {
         message: document.getElementById("message").value,
     }
 
-    emailjs.send("service_59esgog", "template_121hkrg", templateParams).then(() => alert("Email Sent Successfully!"));
+    emailjs.send("service_59esgog", "template_121hkrg", templateParams).then(() {
+        alert("Email Sent Successfully!");
     })
 }
