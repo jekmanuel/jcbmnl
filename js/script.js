@@ -46,3 +46,17 @@ $(document).ready(function () {
         topOffset: -70
     });
 });
+
+//Email JS
+function sendEmail() {
+    const templateParams = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        subject: document.getElementById("subject").value,
+        message: document.getElementById("message").value,
+    }
+
+    emailjs.send("service_59esgog", "template_121hkrg", templateParams).then(function (res) {
+        alert("Email Sent Successfully!" + res.status);
+    })
+}
