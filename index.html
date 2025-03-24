@@ -448,29 +448,33 @@
                         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                         <form action="#">
                             <div class="row gy-4 gx-3">
-<!--                                 <input type="hidden" name="access_key" value="7f25fc37-554a-406d-acb1-791bfe5058e7"> -->
                                 <div class="col-12">
                                     <div class="form-group"><label class="form-label">Name</label>
-                                        <input type="text" class="form-control" id="name" name="name" required>
+                                        <input type="text" name="name" id="name" class="form-control" name="name"
+                                            required>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group"><label class="form-label">Email</label>
-                                        <input type="email" class="form-control" id="email" name="email" required>
+                                        <input type="email" name="email" id="email" class="form-control" name="email"
+                                            required>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group"><label class="form-label">Subject</label>
-                                        <input type="text" class="form-control" id="subject" name="subject" required>
+                                        <input type="text" name="subject" id="subject" class="form-control"
+                                            name="subject" required>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group"><label class="form-label">Message</label>
-                                        <textarea name="message" rows="8" class="form-control" id="message" required></textarea>
+                                        <textarea name="message" id="message" rows="8" class="form-control"
+                                            required></textarea>
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="colored-btn" type="button">Send Message</button>
+                                    <button class="colored-btn" type="button" onclick="sendEmail()">Send
+                                        Message</button>
                                 </div>
                             </div>
                         </form>
