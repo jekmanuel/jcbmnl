@@ -57,6 +57,6 @@ function sendEmail() {
     }
 
     emailjs.send("service_59esgog", "template_121hkrg", templateParams).then(function(res) {
-        alert("Email Sent Successfully!");
+        alert("Email Sent Successfully! " + res.status);
     })
 }
