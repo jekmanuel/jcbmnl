@@ -54,7 +54,7 @@ a:hover {
 
 .main-header {
     position: fixed;
-    z-index: 11;
+    z-index: 1001;
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(10px);
     padding: 5px;
@@ -1103,6 +1103,9 @@ main {
     }
 
     .carousel .list .item .content .title {
-        font-size: 30px;
+        font-size: 20px;
+    }
+    .carousel .list .item .content .des {
+        font-size: smaller;
     }
 }
