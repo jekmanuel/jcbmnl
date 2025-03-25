@@ -1105,6 +1105,10 @@ main {
     .carousel .list .item .content .title {
         font-size: 20px;
     }
+
+    .carousel .list .item .content .topic {
+        font-size: 3;
+    }
     .carousel .list .item .content .des {
         font-size: smaller;
     }
