@@ -45,20 +45,25 @@
                 <div class="collapse navbar-collapse" id="navbar-collapse-toggle">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#home" data-scroll-nav="0">Home</a>
+                            <a class="nav-link" href="#home" data-scroll-nav="0"><i class='bx bx-home-heart'></i>
+                                Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about" data-scroll-nav="1">About</a>
+                            <a class="nav-link" href="#about" data-scroll-nav="1"><i class='bx bx-info-circle'></i>
+                                About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#services" data-scroll-nav="2">Services</a>
+                            <a class="nav-link" href="#services" data-scroll-nav="2"><i class='bx bx-laptop'></i>
+                                Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#skills" data-scroll-nav="3">Skills</a>
+                            <a class="nav-link" href="#skills" data-scroll-nav="3"><i class='bx bx-code-alt'></i>
+                                Skills</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio" data-scroll-nav="4">Portfolio</a>
-                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#portfolio" data-scroll-nav="4"><i
+                                    class='bx bx-briefcase-alt-2'></i> Portfolio</a>
+                        </li> -->
                         <!-- <li class="nav-item">
                             <a class="nav-link" href="#pages">Pages</a>
                         </li>
@@ -69,7 +74,7 @@
                 </div>
 
                 <div class="ms-auto d-none d-lg-block">
-                    <a class="colored-btn" style="border-radius: 50px;" href="#contact" data-scroll-nav="4">Contact
+                    <a href="#contact-section" class="colored-btn" style="border-radius: 50px;" data-scroll-nav="4">Contact
                         Now <i class='bx bx-phone'></i> </a>
                 </div>
 
@@ -86,17 +91,29 @@
 
     <!-- main -->
     <!-- Home -->
-    <section id="home" class="home-section" data-scroll-index="0"
-        style="background-image: url(assets/bgw3.svg); background-repeat: no-repeat; background-size: cover;">
+    <section id="home" class="home-section" data-scroll-index="0">
+        <video autoplay muted loop id="myVideo">
+            <source src="videos/bgvideo.mp4" type="video/mp4">
+        </video>
         <div class="container">
-            <div class="row gy-5 align-items-center">
+            <div class="row gy-5">
                 <div class="col-lg-6">
-                    <div class="home-intro text-center text-lg-start">
+                    <div class="home-intro text-center mt-5">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <center>
+                            <div class="hero-info-title text-center">
+                                <i class='bx bx-code'></i> Web Developer Portfolio
+                            </div><br>
+                        </center>
                         <h6>Howdy, Friends! My name is Jacob.</h6>
-                        <h1>I'm a <span id="type-it"></span></h1>
+                        <h1>I'm a <span class="gradient" id="type-it"></span></h1>
                         <p>I'm an aspiring web-designer. I have collaborated with some design startup companies
-                    and am currently delving into the realm of aesthetics. My objective is to uncover the true beauty of
-                    this world and explore it from my unique perspective. Based in the Philippines</p>
+                            and am currently delving into the realm of aesthetics. My objective is to uncover the true
+                            beauty of
+                            this world and explore it from my unique perspective. Based in the Philippines</p>
                         <!-- <a href="#about" class="colored-btn mt-1">
                             About Me <span><i class='bx bx-user-circle bx-tada-hover'></i></span>
                         </a> -->
@@ -104,13 +121,15 @@
                             <a href="CV_Jacob_Manuel.pdf" class="colored-btn mt-1 me-2">
                                 Download CV <span><i class='bx bxs-download bx-tada-hover'></i></span>
                             </a>
-                            <a href="https://facebook.com/jcb.mnl.06"><img class="bx-tada-hover" src="assets/fb.svg" alt=""></a>
-                            <a href="https://instagram.com/jekk.manuel"><img src="assets/ig.svg" alt="" class="bx-tada-hover"></a>
+                            <a href="https://facebook.com/jcb.mnl.06"><img class="bx-tada-hover" src="assets/fb.svg"
+                                    alt=""></a>
+                            <a href="https://instagram.com/jekk.manuel"><img src="assets/ig.svg" alt=""
+                                    class="bx-tada-hover"></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-6">
-                    <div class="home-image text-center">
+                    <div class="">
                         <img src="assets/hero1.svg" alt="hero">
                     </div>
                 </div>
@@ -135,16 +154,16 @@
                         <p>In my professional experience, I have collaborated with some design startup companies and am
                             currently delving into the realm of aesthetics. My objective is to uncover the true beauty
                             of this world and explore it from my unique perspective. </p>
-                        <div class="row pt-2">
+                        <!-- <div class="row pt-2">
                             <div class="col-6 col-md-4">
-                                <h5 class="text-primary fw-semibold fs-4 mb-0 ms-3">250+</h5>
+                                <h5 class="text-primary fw-semibold fs-4 mb-0 ms-3"></h5>
                                 <span class="text ms-3">Project Completed</span>
                             </div>
                             <div class="col-6 col-md-4">
                                 <h5 class="text-primary fw-semibold fs-4 mb-0">200+</h5>
                                 <span class="text-dark">Happy Clients</span>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -166,9 +185,10 @@
                         <div class="icon"><img src="assets/webdes.svg" alt=""></div>
                         <div class="content">
                             <h5>Web Design</h5>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque fugit culpa harum?
-                                Necessitatibus minus totam, tempora amet, illum hic porro commodi beatae ad vero nemo
-                                velit possimus doloremque! Pariatur, asperiores.</p>
+                            <p>I have expertise in HTML, CSS, Javascript, and design tools like Canva and basic
+                                knowledge in
+                                Figma. My strengths in building aesthetics with functionality to create seamless user
+                                experiences.</p>
                         </div>
                     </div>
                 </div>
@@ -177,9 +197,9 @@
                         <div class="icon"><img src="assets/html.svg" alt=""></div>
                         <div class="content">
                             <h5>HTML</h5>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque fugit culpa harum?
-                                Necessitatibus minus totam, tempora amet, illum hic porro commodi beatae ad vero nemo
-                                velit possimus doloremque! Pariatur, asperiores.</p>
+                            <p>I am skilled in HTML, CSS, Javascript, and frameworks like Android Studio. I also have
+                                experience
+                                with database management using MySQL.</p>
                         </div>
                     </div>
                 </div>
@@ -188,9 +208,9 @@
                         <div class="icon"><img src="assets/css.svg" alt=""></div>
                         <div class="content">
                             <h5>CSS</h5>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque fugit culpa harum?
-                                Necessitatibus minus totam, tempora amet, illum hic porro commodi beatae ad vero nemo
-                                velit possimus doloremque! Pariatur, asperiores.</p>
+                            <p>I am skilled in HTML, CSS, Javascript, and frameworks like Android Studio. I also have
+                                experience
+                                with database management using MySQL.</p>
                         </div>
                     </div>
                 </div>
@@ -199,9 +219,11 @@
                         <div class="icon"><img src="assets/tsr.svg" alt=""></div>
                         <div class="content">
                             <h5>Tech Support</h5>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque fugit culpa harum?
-                                Necessitatibus minus totam, tempora amet, illum hic porro commodi beatae ad vero nemo
-                                velit possimus doloremque! Pariatur, asperiores.</p>
+                            <p>This involves troubleshooting and resolving technical issues related to hardware,
+                                software, and
+                                networks, providing assistance to users through various channels, and ensuring smooth
+                                operation
+                                of technology. </p>
                         </div>
                     </div>
                 </div>
@@ -215,7 +237,7 @@
 
     <!-- Skills -->
     <section id="skills" class="section" data-scroll-index="3"
-        style="background-image: url(assets/bg/bgwhite.svg); background-repeat: no-repeat; background-size: cover;">
+        style="background: url(videos/skillsvid.mp4); object-fit:cover; height: 80vh;">
         <div class="container">
             <div class="row gy-5 align-items-center">
                 <div class="col-lg-6">
@@ -277,7 +299,7 @@
                 </div>
                 <div class="col-lg-6 text-center">
                     <div class="pb-5 d-none d-md-block">
-                        <img src="assets/skills.svg" alt="">
+                        <!-- <img src="assets/skills.svg" alt=""> -->
                     </div>
                 </div>
             </div>
@@ -286,192 +308,15 @@
     <!-- Skills End -->
 
     <!-- Portfolio -->
-    <section id="portfolio" class="carousel-section" data-scroll-index="4">
-        <div class="carousel">
-            <!-- list item -->
-            <div class="list">
-                <div class="item">
-                    <img src="assets/img1.jpg">
-                    <div class="content">
-                        <div class="author">JCB Photography</div>
-                        <div class="title">DESIGN SLIDER</div>
-                        <div class="topic">ANIMAL</div>
-                        <div class="des">
-                            <!-- lorem 50 -->
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt
-                            minima
-                            placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab
-                            et
-                            quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit
-                            tempora at
-                            laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
-                        </div>
-                        <div class="buttons">
-                            <button>SEE MORE</button>
-                            <button>SUBSCRIBE</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="assets/img2.jpg">
-                    <div class="content">
-                        <div class="author">JCB Photography</div>
-                        <div class="title">DESIGN SLIDER</div>
-                        <div class="topic">ANIMAL</div>
-                        <div class="des">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt
-                            minima
-                            placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab
-                            et
-                            quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit
-                            tempora at
-                            laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
-                        </div>
-                        <div class="buttons">
-                            <button>SEE MORE</button>
-                            <button>SUBSCRIBE</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="assets/img3.jpg">
-                    <div class="content">
-                        <div class="author">JCB Photography</div>
-                        <div class="title">DESIGN SLIDER</div>
-                        <div class="topic">ANIMAL</div>
-                        <div class="des">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt
-                            minima
-                            placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab
-                            et
-                            quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit
-                            tempora at
-                            laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
-                        </div>
-                        <div class="buttons">
-                            <button>SEE MORE</button>
-                            <button>SUBSCRIBE</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="assets/img4.jpg">
-                    <div class="content">
-                        <div class="author">JCB Photography</div>
-                        <div class="title">DESIGN SLIDER</div>
-                        <div class="topic">ANIMAL</div>
-                        <div class="des">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt
-                            minima
-                            placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab
-                            et
-                            quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit
-                            tempora at
-                            laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
-                        </div>
-                        <div class="buttons">
-                            <button>SEE MORE</button>
-                            <button>SUBSCRIBE</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="assets/img5.jpg">
-                    <div class="content">
-                        <div class="author">JCB Photography</div>
-                        <div class="title">DESIGN SLIDER</div>
-                        <div class="topic">ANIMAL</div>
-                        <div class="des">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt
-                            minima
-                            placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab
-                            et
-                            quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit
-                            tempora at
-                            laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
-                        </div>
-                        <div class="buttons">
-                            <button>SEE MORE</button>
-                            <button>SUBSCRIBE</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- list thumnail -->
-            <div class="thumbnail">
-                <div class="item">
-                    <img src="assets/img1.jpg">
-                    <div class="content">
-                        <div class="title">
-                            Name Slider
-                        </div>
-                        <div class="description">
-                            Description
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="assets/img2.jpg">
-                    <div class="content">
-                        <div class="title">
-                            Name Slider
-                        </div>
-                        <div class="description">
-                            Description
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="assets/img3.jpg">
-                    <div class="content">
-                        <div class="title">
-                            Name Slider
-                        </div>
-                        <div class="description">
-                            Description
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="assets/img4.jpg">
-                    <div class="content">
-                        <div class="title">
-                            Name Slider
-                        </div>
-                        <div class="description">
-                            Description
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="assets/img5.jpg">
-                    <div class="content">
-                        <div class="title">
-                            Name Slider
-                        </div>
-                        <div class="description">
-                            Description
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- next prev -->
+    <!-- <section id="portfolio" class="carousel-section" data-scroll-index="4">
+       
 
-            <div class="arrows">
-                <button id="prev">
-                    &lt;</button>
-                <button id="next">&gt;</button>
-            </div>
-            <!-- time running -->
-            <!-- <div class="time"></div> -->
-        </div>
-
-    </section>
+    </section> -->
 
     <!-- Portfolio End -->
 
     <!-- Testimonial/Pics -->
-    <div class="section"
+    <!-- <div class="section"
         style="background-image: url(assets/bg/2.svg); background-repeat: no-repeat; background-size: cover;">
         <div class="container">
             <div class="section-heading text-start">
@@ -592,19 +437,21 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Testimonial End -->
 
     <!-- Contact -->
-    <section id="contact" class="section" data-scroll-index="5"
+    <section id="contact-section" class="section" data-scroll-index="5"
         style="background-image: url(assets/bg/bgwhite.svg); background-repeat: no-repeat; background-size: cover;">
         <div class="container">
             <div class="row gy-5">
                 <div class="col-lg-6">
                     <div class="contact-form">
-                        <h2 class="text-dark">Get in Touch</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <h2 class="text-dark">Let's Talk!</h2>
+                        <p class="lead">If you're looking to build a new website, improve your existing platform, or
+                            bring a unique project
+                            to file, I'm here to help!</p>
                         <form action="#">
                             <div class="row gy-4 gx-3">
                                 <!-- <input type="hidden" name="access_key" value="7f25fc37-554a-406d-acb1-791bfe5058e7"> 
@@ -645,7 +492,9 @@
                 </div>
                 <div class="col-lg-5 ms-auto col-xl-4">
                     <div class="pb-5 d-none d-md-block">
-                        <img src="assets/contact.svg" class="w-70" alt="">
+                        <video src="videos/contact.mp4" type="video/mp3" style="width: 100%;" loop autoplay muted
+                            plays-inline></video>
+                        <!-- <img src="assets/contact.svg" class="w-70" alt=""> -->
                     </div>
                     <ul class="contact-info">
                         <li>
