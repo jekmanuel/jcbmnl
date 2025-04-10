@@ -501,7 +501,7 @@ main {
     }
 }
 
-#myVideo {
+.myVideo {
     position: fixed;
     right: 0;
     bottom: 0;
